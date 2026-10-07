@@ -1,29 +1,94 @@
 <!DOCTYPE html>
 <html><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Hermtech Solutions</title>
-<style>*{margin:0;padding:0;box-sizing:border-box}body{font-family:Arial;background:#f8fafc}
-header{background:#0f172a;color:#fff;padding:12px 16px;display:flex;gap:12px;align-items:center}
-header img{width:48px;height:48px;border-radius:50%;background:#fff}
-.hero{background:linear-gradient(135deg,#0f172a,#1e40af);color:#fff;padding:20px;text-align:center}
-.hero img{width:100%;max-width:600px;border-radius:16px;margin:16px auto;display:block;border:4px solid #f59e0b}
-.btn{display:inline-block;background:#f59e0b;color:#000;padding:12px 24px;border-radius:30px;text-decoration:none;font-weight:bold;margin:6px}
-.teamviewer{background:#fef3c7;border:2px dashed #f59e0b;padding:16px;border-radius:12px;margin:16px auto;max-width:700px;color:#000}
-.section{padding:18px;max-width:1000px;margin:auto}
-.grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}@media(max-width:600px){.grid{grid-template-columns:1fr}}
-.card{background:#fff;border:1px solid #e5e7eb;border-radius:14px;overflow:hidden}
-.card img{width:100%;height:260px;object-fit:cover}
-.info{padding:12px}.order{display:block;background:#0f172a;color:#fff;padding:10px;text-align:center;border-radius:8px;text-decoration:none}
-.ceo{display:flex;gap:12px;background:#fff;padding:14px;border-radius:14px;border:1px solid #e5e7eb;margin-top:16px}
-.ceo img{width:80px;height:80px;border-radius:50%;object-fit:cover}
-footer{background:#0f172a;color:#94a3b8;text-align:center;padding:16px;margin-top:20px}
+<title>HERMTECH SOLUTIONS ENTERPRISE</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}body{font-family:Arial,sans-serif;background:#fff;color:#111}
+.top{display:flex;align-items:center;gap:12px;padding:14px;justify-content:center;flex-wrap:wrap;text-align:center}
+.top img{width:80px;height:80px;border-radius:50%}
+.top h1{font-size:26px;color:#0f2a54;line-height:1.1}
+.top h2{font-size:16px;font-weight:normal}
+.top h3{font-size:15px;color:#d4a017}
+.grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:10px;padding:12px;max-width:1100px;margin:auto}
+@media(max-width:800px){.grid{grid-template-columns:1fr}}
+.box{border-radius:12px;overflow:hidden;border:1px solid #e5e7eb}
+.box-head{padding:10px;color:#fff;font-weight:bold;text-align:center;font-size:14px}
+.box-body{padding:12px;font-size:13.5px;line-height:1.5}
+.blue .box-head{background:#0f4aa3}.blue .box-body{background:#e8f0fe}
+.orange .box-head{background:#ef7a00}.orange .box-body{background:#ffe9cc}
+.green .box-head{background:#1a9a4b}.green .box-body{background:#dff5e3}
+ul{padding-left:18px}
+.footer{display:grid;grid-template-columns:2fr 1.5fr;gap:0}
+@media(max-width:600px){.footer{grid-template-columns:1fr}}
+.left{background:#f6c343;padding:14px;font-weight:bold;font-size:14px}
+.right{background:#0f172a;color:#fff;padding:14px;font-size:14px;line-height:1.8}
+.right a{color:#fff;text-decoration:none}
+.btn{display:inline-block;background:#0f4aa3;color:#fff;padding:10px 18px;border-radius:20px;text-decoration:none;margin:6px;font-size:13px}
+.nav{text-align:center;padding:8px;background:#0f172a;position:sticky;top:0;z-index:10}
+.nav a{color:#f6c343;margin:0 10px;text-decoration:none;font-weight:bold;font-size:13px}
 </style></head><body>
-<header><img src="logo.png"><h1>HERMTECH SOLUTIONS</h1></header>
-<div class="hero"><h2>Quality Phones & Fast Repairs</h2><p>Kooki Tower Level 3 - Kampala</p><img src="IMG-20261007-WA4209.jpg"><br>
-<a class="btn" href="https://wa.me/256761281720">WhatsApp Order</a><a class="btn" style="background:#fff" href="tel:+256761281720">Call Now</a>
-<div class="teamviewer"><p>🖥️ Remote Support</p><b>TeamViewer ID: PUT YOUR ID HERE</b><br><small>Example: 1 234 567 890 - Send ID on WhatsApp for remote fix</small></div></div>
-<div class="section"><div class="grid">
-<div class="card"><img src="FB_IMG_16352200581298024.jpg"><div class="info"><h4>Phone Repair</h4><a class="order" href="https://wa.me/256761281720">Order Repair - UGX 30k</a></div></div>
-<div class="card"><img src="IMG-20261007-WA4209.jpg"><div class="info"><h4>UK Used Phones</h4><a class="order" href="https://wa.me/256761281720">Buy Phone</a></div></div>
-</div><div class="ceo"><img src="CEO.jpg"><div><h4>CEO - Hermtech</h4><p>1000+ happy customers in Kampala. Genuine phones with warranty.</p></div></div></div>
-<footer>© 2026 Hermtech Solutions - hermtechsolutions.netlify.app - TeamViewer Support Available</footer>
+<div class="nav">
+<a href="#computer">Computer</a><a href="#design">Design</a><a href="#internet">Internet</a><a href="#contact">Contact</a>
+</div>
+<div class="top">
+<img src="logo.png" onerror="this.src='https://hermtechsolutions.netlify.app/logo.png'">
+<div>
+<h1>HERMTECH SOLUTIONS ENTERPRISE</h1>
+<h2>We bring technology closer to you</h2>
+<h3>★ Best Tech • Best Future ★</h3>
+</div>
+</div>
+
+<div style="text-align:center;padding:0 12px"><img src="IMG-20261007-WA4209.jpg" style="width:100%;max-width:900px;border-radius:12px;border:2px solid #0f172a"></div>
+
+<div class="grid">
+<div id="computer" class="box blue"><div class="box-head">COMPUTER SERVICES</div><div class="box-body"><ul>
+<li>Computer Training</li>
+<li>AI Courses: ChatGPT, Meta AI, Image Generation</li>
+<li>Software Sales & Installation</li>
+<li>Windows Installation</li>
+<li>Virus Removal</li>
+<li>Computer & Phone Settings</li>
+<li>Remote Assistance (TeamViewer)</li>
+</ul></div></div>
+
+<div id="design" class="box orange"><div class="box-head">DESIGN, PRINTING & PHOTOGRAPHY</div><div class="box-body"><ul>
+<li>Business Cards</li>
+<li>Calendars for Schools & Businesses</li>
+<li>Posters / Flyers</li>
+<li>CV / Resume Design</li>
+<li>School Work Typing</li>
+<li>Professional Photography & Photo Editing</li>
+<li>Beautiful Picture Designs for Phone Posting & Printing (HD edited photos you can share)</li>
+</ul></div></div>
+
+<div id="internet" class="box green"><div class="box-head">INTERNET & ONLINE SERVICES</div><div class="box-body"><ul>
+<li>Web Designing</li>
+<li>Website Development</li>
+<li>Netlify & Hosting Setup</li>
+<li>Domain Registration</li>
+<li>Business Websites that earn you customers</li>
+<li>URSB Business Registration, URA, UNEB & School Applications</li>
+<li>All Online Job Applications, All Research</li>
+<li>Email & Facebook Page Creation</li>
+<li>YouTube Thumbnails, File Transfer & Backup</li>
+<li>Phone Flashing & Unlocking</li>
+<li>Remote Assistance via TeamViewer</li>
+</ul></div></div>
+</div>
+
+<div style="text-align:center;padding:10px">
+<a class="btn" href="https://wa.me/256708958898">WhatsApp 0708958898</a>
+<a class="btn" style="background:#1a9a4b" href="mailto:hermtechsolutions@gmail.com">Email Us</a>
+<div class="box" style="max-width:600px;margin:12px auto;background:#fffbeb;border:2px dashed #ef7a00;padding:10px"><b>🖥️ Remote Support</b><br>Customer: Install TeamViewer QuickSupport, open it, send us your ID on WhatsApp — we fix remotely. We never post our ID publicly for safety.</div>
+</div>
+
+<div id="contact" class="footer">
+<div class="left">Your trusted partner to a better tomorrow.<br>Uganda, world over.</div>
+<div class="right">
+📱 0708958898<br>
+✉️ hermtechsolutions@gmail.com<br>
+🌐 hermtechsolutions.netlify.app<br>
+Mon-Sat: 8AM-9PM • Trusted • Professional • Fast
+</div>
+</div>
 </body></html>
